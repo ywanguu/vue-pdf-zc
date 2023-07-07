@@ -1,0 +1,31 @@
+{
+  "name": "vue-pdf-zc",
+  "version": "4.2.0",
+  "description": "zc vue.js pdf",
+  "main": "src/vuePdfNoSss.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ywanguu/vue-pdf-zc.git"
+  },
+  "keywords": [
+    "vue.js",
+    "pdf"
+  ],
+  "author": "wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ywanguu/vue-pdf-zc/issues"
+  },
+  "homepage": "https://github.com/ywanguu/vue-pdf-zc#readme",
+  "dependencies": {
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "loader-utils": "^1.4.0",
+    "pdfjs-dist-zc": "^2.4.0",
+    "raw-loader": "^4.0.1",
+    "vue-resize-sensor": "^2.0.0",
+    "worker-loader": "^2.0.0"
+  }
+}
