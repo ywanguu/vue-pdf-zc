@@ -1,14 +1,6 @@
-# vue-pdf
-vue.js pdf viewer is a package for Vue that enables you to display and view PDF's easily via vue components.
+This project origin is https://github.com/FranckFreiburger/vue-pdf.
 
-## Install via NPM/Yarn
-```bash
-npm install vue-pdf
-```
-
-```bash
-yarn add vue-pdf
-```
+Modify pdfjs-dist to pdfjs-dist-zc.
 
 ## Example - basic
 ```vue
@@ -17,7 +9,7 @@ yarn add vue-pdf
 </template>
 
 <script>
-import pdf from 'vue-pdf'
+import pdf from 'vue-pdf-zc'
 
 export default {
   components: {
